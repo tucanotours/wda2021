@@ -1,0 +1,61 @@
+header {
+width:100%;
+margin:0px;
+padding:0px;
+}
+
+header .container .row div a {
+float:left;
+text-indent:-9999px;
+cursor:pointer;	
+}
+
+header .container .row div:nth-Child(2) a {
+width:420px;
+height:50px;
+background:url(../img/logo/logo.svg) no-repeat center;
+margin:50px 0px 30px 0px; 
+}
+
+header .container .row div:nth-Child(3) a {
+float:right;
+width:150px;
+height:12px;
+background:url(../img/logo/logo-merz-aesthetics.svg) no-repeat center;
+margin:60px 0px 30px 0px; 
+}
+
+
+@media (min-height: 600px) {
+	
+
+}
+
+
+@media (max-height: 790px) {
+	
+	
+
+}
+
+
+@media (max-width: 992px) {
+	
+}
+
+@media (max-width: 992px) {
+	
+	header .container .row div:nth-Child(2) a,
+	header .container .row div:nth-Child(3) a {
+	width:100%;	
+	}
+	
+	header .container .row div:nth-Child(2) a {
+	margin:30px 0px 30px 0px; 
+	}
+	
+	header .container .row div:nth-Child(3) a {
+	margin:0px 0px 30px 0px; 
+	}
+	
+}

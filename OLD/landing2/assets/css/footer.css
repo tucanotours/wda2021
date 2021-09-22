@@ -1,0 +1,77 @@
+footer {
+font-family:  'LuloCleanW01-OneBold';
+padding:50px 0px;
+background:#fff;
+}
+footer h1 {
+margin:0px auto;
+margin-top:10px;
+text-align:center;
+font-size:18px;
+text-transform:uppercase;
+color:#D72F27;
+}
+footer h2 {
+margin:0px auto;
+margin-top:7px;
+text-align:center;
+font-size:10px;
+text-transform:uppercase;
+color:#5D5E5E;
+}
+footer h3 {
+margin:0px 0px 0px 0px;
+font-family: 'Museo Sans 100';
+text-align:center;
+font-size:16.45px;
+color:#231F20;
+}
+footer a:nth-of-type(2) h3 {
+margin-top:20px;
+}
+footer h4 {
+margin:0px auto;
+margin-top:5px;
+text-align:center;
+font-size:10.4px;
+text-transform:uppercase;
+color:#D72F27;
+}
+footer p {
+font-family: 'Museo Sans 100';
+text-align:center;
+font-size:12px;
+color:#231F20;
+margin:35px 0px;
+}
+footer a:hover h1,
+footer a:hover h3,
+footer a:hover h4 {
+text-decoration:underline;	
+}
+.tuc-iconos-tabla {
+display: table;
+margin: 0px auto;
+}
+ul.tuc-iconos {
+margin-left: -40px;
+}
+.tuc-iconos li {
+list-style-type:none;
+display:inline;
+}
+.tuc-iconos li a {
+color:#D72F27;
+margin:0px 10px;
+}
+.tuc-iconos li a:hover {
+transform:scale(1.2);
+}
+
+@media (max-width: 768px) {
+	
+	footer .col-sm-12 {
+	margin-bottom:50px;
+	}
+	
+}

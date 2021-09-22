@@ -1,0 +1,96 @@
+footer {
+padding:0px 0px 45px 0px;
+text-align:center;
+}
+
+.merz-solo-mobile {
+display:none;
+}
+
+footer div {
+text-align:center;
+}
+
+footer a {
+color:#4471B7;
+float: none;
+}
+
+footer {
+color:#5D5E5E;
+font-size:12px;	
+}
+
+footer img {
+margin-bottom:10px;	
+}
+
+.merz-logos-mobile {`
+}
+
+.merz-solo-desktop {
+display:block !important;	
+}
+
+footer .merz-logos-mobile {
+display:none !important;	
+}
+
+@media (max-width: 768px) {
+	
+	footer .merz-logos-mobile {
+	display:block !important;
+	padding: 0px 10px !important;	
+	}
+	.merz-solo-mobile {
+	display:block !important;
+	}
+	
+	.merz-solo-desktop {
+	display:none !important;	
+	}
+	
+	footer span, .merz-logos-home span {
+	display:none !important;
+	}
+	
+	.merz-logos-mobile {
+	display:block;
+	clear: both;
+    width: 100%;
+    float: left;
+	margin-bottom:20px;
+	}
+	
+	.merz-logos-home .merz-logos-mobile {
+	display: block !important;
+	}
+	
+	.merz-logos-home .merz-logos-mobile div {
+    padding: 0px 0px !important;
+	}
+	.merz-home .merz-logos-mobile div:nth-Child(2) {
+	padding: 0px 0px !important;	
+	}
+	.merz-home .row:nth-Child(3) div:nth-Child(2) {
+    padding: 0px !important;
+	padding: 0px 10px !important;
+	}
+	
+	.merz-home .merz-logos-mobile {
+	background:none !important;
+	margin:50px 0px;
+	}
+	
+	.row.merz-logos-mobile .col-3 {
+    width: 25% !important;
+    float: left !important;
+	padding: 0px 0px !important;
+	}
+	
+	.row.merz-logos-mobile .col-3 img {
+    width: 100% !important;
+    vertical-align: middle;
+	}
+	
+}

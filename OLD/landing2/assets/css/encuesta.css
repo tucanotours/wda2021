@@ -1,0 +1,165 @@
+.star-rating__stars {
+  position: relative;
+  height: 20px;
+  width: 125px;
+  background: url(../img/svg/encuesta1.svg);
+  background-size: contain;
+}
+
+.star-rating__label {
+  position: absolute;
+  height: 100%;
+  background-size: contain;
+}
+
+#popup_encuesta .modal-body label {
+    float: none !important;
+    margin-bottom: 0px !important;
+}
+
+.star-rating__label:hover {
+cursor:pointer;
+}
+
+.star-rating__input {
+  margin: 0;
+  position: absolute;
+  height: 1px; width: 1px;
+  overflow: hidden;
+}
+
+.star-rating__stars .star-rating__label:nth-of-type(1) {
+  z-index: 5;
+  width: 20% !important;
+}
+
+.star-rating__stars .star-rating__label:nth-of-type(2) {
+  z-index: 4;
+  width: 40% !important;
+}
+
+.star-rating__stars .star-rating__label:nth-of-type(3) {
+  z-index: 3;
+  width: 60% !important;
+}
+
+.star-rating__stars .star-rating__label:nth-of-type(4) {
+  z-index: 2;
+  width: 80% !important;
+}
+
+.star-rating__stars .star-rating__label:nth-of-type(5) {
+  z-index: 1;
+  width: 100% !important;
+}
+
+.star-rating__input:checked + .star-rating__label,
+.star-rating__input:focus + .star-rating__label,
+.star-rating__label:hover {
+  background-image: url(../img/svg/encuesta2.svg);
+}
+
+.star-rating__label:hover ~ .star-rating__label {
+  background-image: url(../img/svg/encuesta1.svg);
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  background:url(../img/svg/encuesta1.svg) no-repeat center;
+}
+
+#popup_encuesta .modal-body h3, 
+.rating h3 {
+    font-size: 9.37px;
+    color: #353635;
+    width: 85px;
+    float: left;
+	text-align: center;
+	margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'LuloCleanW01-OneBold', Arial, sans-serif;
+}
+
+#popup_encuesta .modal-body h3 {
+width: 50%;	
+}
+
+#popup_encuesta .modal-body {
+background:#fff;
+padding:30px;
+}
+
+#popup_encuesta .modal-body h1 {
+margin:0px auto 30px auto;
+text-align:center;
+font-size:18px;
+text-transform:uppercase;
+color:#D72F27;
+font-family: 'LuloCleanW01-OneBold', Arial, sans-serif;
+}
+
+#popup_encuesta .modal-body h2 {
+font-family: 'Market Web';
+margin:45px auto -10px auto;
+text-align:center;
+font-size:34px;
+text-transform:none;
+color:#5D5E5E;
+}
+
+#popup_encuesta .modal-body h2 {
+font-size:18px;
+margin:0px auto;
+letter-spacing:0px;
+font-size: 23.79px !important;
+margin: 30px 0px 0px 0px !important;
+color: #5D5E5E;
+font-family: 'Market Web';
+}
+#popup_encuesta .modal-body h1 {
+text-indent:0px;
+background:none;
+height:auto;
+width:auto;
+max-width:none;
+}
+
+#popup_encuesta .modal-dialog {
+    max-width: 480px !important;
+}
+
+#popup_encuesta .modal-body form div {
+text-align:left;
+}
+
+#popup_encuesta .star-rating__stars {
+  position: relative;
+  height: 20px;
+  width: 125px;
+  background: url(../img/svg/encuesta3.svg);
+  background-size: contain;
+}
+
+#popup_encuesta .star-rating__label:hover ~ .star-rating__label {
+  background-image: url(../img/svg/encuesta3.svg);
+}
+
+#popup_encuesta .rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  background:url(../img/svg/encuesta3.svg) no-repeat center;
+}
+
+.tuc-encuesta-popup-boton {
+text-align:center !important;
+}
+#popup_encuesta .modal-body input[type="button"] {
+    float: none;
+}
+
+#encuesta_mensaje {
+font-size: 9px;
+text-align: center;
+margin: 20px auto;
+width: 100%;	
+}
